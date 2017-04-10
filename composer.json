@@ -34,7 +34,7 @@
     },
     "autoload-dev": {
         "psr-4": {
-            "Bouda\\JsonHttpClient\\": "tests"
+            "Bouda\\JsonHttpClientTests\\": "tests"
         }
     },
     "config": {
