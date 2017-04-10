@@ -1,0 +1,43 @@
+{
+    "name": "ondrejbouda/json-http-client",
+    "type": "library",
+    "description": "Json http client",
+    "keywords": [
+        "ondrejbouda",
+        "json-http-client"
+    ],
+    "homepage": "https://github.com/ondrejbouda/json-http-client",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ondřej Bouda",
+            "email": "ondrej.bouda@gmail.com",
+            "homepage": "https://ondrejbouda.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "~7.1",
+        "guzzlehttp/guzzle": "^6.2",
+        "psr/log": "^1.0"
+    },
+    "require-dev": {
+        "mockery/mockery": "^0.9.9",
+        "ondrejbouda/coding-standard": "dev-master",
+        "phpstan/phpstan": "^0.6.4",
+        "phpunit/phpunit": "~6.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Bouda\\JsonHttpClient\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Bouda\\JsonHttpClient\\": "tests"
+        }
+    },
+    "config": {
+        "sort-packages": true
+    }
+}
