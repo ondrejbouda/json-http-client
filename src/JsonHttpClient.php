@@ -42,11 +42,11 @@ class JsonHttpClient
 	/**
 	 * @param string $method
 	 * @param string $uri
-	 * @param mixed[]|null $options
+	 * @param mixed[] $options
 	 * @return mixed[]
 	 * @throws GuzzleException
 	 */
-	public function request(string $method, string $uri, ?array $options = null): array
+	public function request(string $method, string $uri, ?array $options = []): array
 	{
 		$this->logger->debug(sprintf('json http client getting %s', $uri));
 
